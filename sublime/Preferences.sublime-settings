@@ -1,0 +1,31 @@
+{
+	// "color_scheme": "Packages/GitHub Theme/schemes/GitHub Dimmed.sublime-color-scheme",
+	// "color_scheme": "Packages/GitHub Theme/schemes/GitHub Light.sublime-color-scheme",	
+	
+	"color_scheme": "Packages/GitHub Theme/schemes/GitHub Dimmed.sublime-color-scheme",
+	"theme": "Adaptive.sublime-theme",
+
+	"font_face": "Fira Code",
+	"font_size": 13,
+	"font_options": 
+	[
+		// "no_italic",
+	],
+	
+	"save_on_focus_lost": true,
+	"highlight_modified_tabs": true,
+	"open_files_in_new_window": false,
+
+	"ignored_packages":
+	[
+		"Vintage",
+	],	
+
+	// Bracket Highlighter
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
+}
