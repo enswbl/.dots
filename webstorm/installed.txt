@@ -1,6 +1,0 @@
-Key Promoter X
-com.clutcher.comments_highlighter
-com.elliotwaite.godot_theme
-com.tabnine.TabNine
-izhangzhihao.rainbow.brackets
-zielu.gittoolbox
