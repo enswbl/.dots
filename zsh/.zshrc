@@ -35,9 +35,9 @@ autoload -Uz _zinit
 zinit ice compile'(pure|async).zsh' pick'async.zsh' src'pure.zsh'
 zinit light dfurnes/purer
 
-zinit light zsh-users/zsh-autosuggestions
-
 zinit light zsh-users/zsh-syntax-highlighting
+
+zinit light zsh-users/zsh-autosuggestions
 
 zinit ice wait lucid as=completion
 zinit light zsh-users/zsh-completions
@@ -98,9 +98,7 @@ alias bbrew="brew bundle dump; mv ~/brewfile ~/.dots/brewfile"
 alias bnpm="npm list -g --depth 0 > npmlist.txt; mv ~/npmlist.txt ~/.dots/npmlist.txt"
 # alias bpip="pip3 list > piplist.txt; mv ~/piplist.txt ~/.dots/piplist.txt"
 
-# alias bvscode="code --list-extensions > ~/.dots/vscode/extensions.txt"
+alias bvscode="code --list-extensions > ~/.dots/vscode/extensions.txt"
 
 alias showdots="defaults write com.apple.finder AppleShowAllFiles true ; killall Finder"
 alias hidedots="defaults write com.apple.finder AppleShowAllFiles false ; killall Finder"
-
-
