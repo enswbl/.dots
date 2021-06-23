@@ -12,7 +12,8 @@
 # ║                                                                            ║
 # ║                                                                            ║
 # ╚════════════════════════════════════════════════════════════════════════════╝
-# zmodload zsh/zprof
+# for i in $(seq 1 10); do /usr/bin/time /bin/zsh -i -c exit; done;
+# zinit times -m / -ms
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
@@ -32,14 +33,22 @@ autoload -Uz _zinit
 # ║                                - PLUGINS -                                ║
 # ╚═══════════════════════════════════════════════════════════════════════════╝
 
-zinit ice compile'(pure|async).zsh' pick'async.zsh' src'pure.zsh'
+zinit ice compile'(pure|async).zsh' pick'async.zsh' src'pure.zsh' atload"
+PURE_PROMPT_SYMBOL=▲
+PURE_PROMPT_SYMBOL_COLOR=magenta
+PURE_PROMPT_PATH_FORMATTING=%c/"
 zinit light dfurnes/purer
 
+zinit ice wait lucid atload"
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+ZSH_HIGHLIGHT_STYLES[path]=none
+ZSH_HIGHLIGHT_STYLES[autodirectory]=none"
 zinit light zsh-users/zsh-syntax-highlighting
 
+zinit ice wait lucid atload"!_zsh_autosuggest_start"
 zinit light zsh-users/zsh-autosuggestions
 
-zinit ice wait lucid as=completion
+zinit ice wait lucid blockf
 zinit light zsh-users/zsh-completions
 
 zinit ice wait lucid
@@ -67,21 +76,11 @@ setopt autopushd
 setopt correct
 setopt correct_all
 
-export PYTHONSTARTUP=~/.config/python/.pythonrc
-
-
-
-PURE_PROMPT_SYMBOL="▲"
-PURE_PROMPT_SYMBOL_COLOR="magenta"
-PURE_PROMPT_PATH_FORMATTING="%c/"
-
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
-ZSH_HIGHLIGHT_STYLES[path]=none
-ZSH_HIGHLIGHT_STYLES[autodirectory]=none
-
-export NVM_LAZY_LOAD=true
+NVM_LAZY_LOAD=true
 
 export _Z_DATA=~/.config/z/.z
+
+export PYTHONSTARTUP=~/.config/python/.pythonrc
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
@@ -92,6 +91,9 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 alias zshc="$EDITOR ~/.config/zsh/.zshrc"
 
 alias ls="exa"
+
+alias ms="brew services start mongodb-community"
+alias mst="brew services stop mongodb-community"
 
 alias bbrew="brew bundle dump; mv ~/brewfile ~/.dots/brewfile"
 
