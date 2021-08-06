@@ -1,0 +1,76 @@
+AdGuard.app
+Alfred 4.app
+Anki.app
+AppCleaner.app
+Backup and Sync.app
+Bear.app
+BetterTouchTool.app
+Caption.app
+CleanMyMac X.app
+coconutBattery.app
+ColorSlurp.app
+DaisyDisk.app
+Dark Mode Wallpaper.app
+Dark Reader for Safari.app
+Dash.app
+Developer.app
+Discord.app
+Dropbox.app
+Figma.app
+Folx.app
+Gifski.app
+GitHub Desktop.app
+GoLand.app
+GoodNotes.app
+Google Chrome.app
+Habitify.app
+Hidden Bar.app
+Hotspot Shield.app
+IINA.app
+iStat Menus.app
+iTerm.app
+Keyboard Maestro.app
+KeyKey.app
+Keynote.app
+Latest.app
+LookUp.app
+LuLu.app
+Magnet.app
+MindNode.app
+Minimal Consent.app
+MongoDB Compass.app
+Notion.app
+Numbers.app
+Optimage.app
+Overcast.app
+Pages.app
+Paparazzi!.app
+PiPer.app
+Pixelmator Pro.app
+Playgrounds.app
+Pocket.app
+Polyglot.app
+PopClip.app
+Postman.app
+Raindrop.io.app
+Reeder.app
+Safari.app
+Save to Pocket.app
+Save to Raindrop.io.app
+Session Pal.app
+Shifty.app
+Sigil.app
+Slack.app
+Soda Player.app
+Spark.app
+Spotify.app
+Sublime Text.app
+Tab Suspender.app
+Telegram.app
+Things3.app
+Toggl Track.app
+Utilities
+Visual Studio Code.app
+Xcode.app
+Yandex.Disk.2.app
+zoom.us.app

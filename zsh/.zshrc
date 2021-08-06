@@ -84,6 +84,8 @@ export PYTHONSTARTUP=~/.config/python/.pythonrc
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+export PATH="/opt/homebrew/opt/ssh-copy-id/bin:$PATH"
+
 # ╔═══════════════════════════════════════════════════════════════════════════╗
 # ║                                - ALIASES -                                ║
 # ╚═══════════════════════════════════════════════════════════════════════════╝
@@ -94,6 +96,8 @@ alias ls="exa"
 
 alias ms="brew services start mongodb-community"
 alias mst="brew services stop mongodb-community"
+
+alias bapps="ls /Applications > ~/.dots/apps.txt"
 
 alias bbrew="brew bundle dump; mv ~/brewfile ~/.dots/brewfile"
 

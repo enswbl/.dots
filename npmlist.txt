@@ -1,3 +1,4 @@
 /Users/enswbl/.nvm/versions/node/v16.3.0/lib
+├── btt-toggl@1.0.2 -> ./../../../../../.config/btt-toggl
 └── npm@7.17.0
 
