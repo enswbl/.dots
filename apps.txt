@@ -1,76 +1,68 @@
-AdGuard.app
-Alfred 4.app
-Anki.app
+.DS_Store
+.localized
+1Password.app
+AFFiNE.app
+AdGuard VPN.app
+Adguard.app
+Alacritty.app
+Allo.app
+Anybox.app
+Apidog.app
 AppCleaner.app
-Backup and Sync.app
+Arc.app
 Bear.app
-BetterTouchTool.app
+Bitwarden.app
 Caption.app
-CleanMyMac X.app
-coconutBattery.app
-ColorSlurp.app
+ChatGPT.app
+CleanShot X.app
+Color Picker.app
+Cron.app
 DaisyDisk.app
-Dark Mode Wallpaper.app
-Dark Reader for Safari.app
-Dash.app
-Developer.app
+DeepL.app
 Discord.app
-Dropbox.app
+Fig.app
 Figma.app
-Folx.app
 Gifski.app
-GitHub Desktop.app
+GitKraken.app
 GoLand.app
-GoodNotes.app
 Google Chrome.app
+HTTPie.app
 Habitify.app
+Hepta.app
 Hidden Bar.app
-Hotspot Shield.app
 IINA.app
-iStat Menus.app
-iTerm.app
-Keyboard Maestro.app
-KeyKey.app
+Insomnia.app
+JetBrains Toolbox.app
+Keka.app
 Keynote.app
-Latest.app
+Kit.app
 LookUp.app
 LuLu.app
-Magnet.app
-MindNode.app
-Minimal Consent.app
+Milanote.app
 MongoDB Compass.app
-Notion.app
 Numbers.app
 Optimage.app
-Overcast.app
 Pages.app
-Paparazzi!.app
-PiPer.app
 Pixelmator Pro.app
-Playgrounds.app
-Pocket.app
-Polyglot.app
 PopClip.app
 Postman.app
-Raindrop.io.app
-Reeder.app
+RapidAPI.app
+Raycast.app
+Rectangle.app
 Safari.app
-Save to Pocket.app
-Save to Raindrop.io.app
-Session Pal.app
-Shifty.app
-Sigil.app
-Slack.app
-Soda Player.app
+Shottr.app
 Spark.app
 Spotify.app
 Sublime Text.app
-Tab Suspender.app
 Telegram.app
+TestFlight.app
 Things3.app
-Toggl Track.app
+Transmission.app
 Utilities
 Visual Studio Code.app
-Xcode.app
-Yandex.Disk.2.app
-zoom.us.app
+Warp.app
+WebStorm.app
+WiFi Explorer Pro 3.app
+Zed.app
+iTerm.app
+kitty.app
